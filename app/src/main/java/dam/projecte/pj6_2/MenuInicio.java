@@ -5,7 +5,9 @@ import android.animation.AnimatorInflater;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -35,5 +37,10 @@ public class MenuInicio extends AppCompatActivity {
         });
 
         animacio.start();
+    }
+
+    public void iniciarJuego(View view) {
+        Intent intent = new Intent(this, Juego.class);
+        startActivity(intent);
     }
 }

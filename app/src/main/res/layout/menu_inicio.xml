@@ -24,12 +24,13 @@
         app:layout_constraintVertical_bias="0.164" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnInicio"
         android:layout_width="100dp"
         android:layout_height="49dp"
         android:layout_marginStart="152dp"
         android:layout_marginTop="120dp"
         android:text="Iniciar"
+        android:onClick="iniciarJuego"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tituloInicio" />
 
