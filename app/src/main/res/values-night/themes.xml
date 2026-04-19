@@ -3,5 +3,6 @@
     <style name="Base.Theme.PJ62" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorContorno">#FFF</item>
     </style>
 </resources>

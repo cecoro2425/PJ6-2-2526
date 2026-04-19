@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorContorno" format="color"/>
+
+    <declare-styleable name="VistaTablero">
+        <attr name="x" format="float">
+        </attr>
+        <attr name="y" format="float">
+        </attr>
+        <attr name="cadena" format="string">
+        </attr>
+    </declare-styleable>
+</resources>

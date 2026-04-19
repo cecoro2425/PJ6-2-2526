@@ -1,6 +1,7 @@
 package dam.projecte.pj6_2;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +18,7 @@ public class Juego extends AppCompatActivity {
 
 
     private String LOG = "dam.projecte.pj6_2";
-    private boolean isReproduint= false;
+    private boolean isReproduint= true;
     private Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,11 @@ public class Juego extends AppCompatActivity {
         startService(intent);
 
         setContentView(R.layout.juego_principal);
+
+        //Insertando vista personalizada con canvas
+        VistaTablero vista = findViewById(R.id.vista);
+        vista.setCadena("");
+
 
         final FloatingActionButton fab = findViewById(R.id.fab);
         fab.setImageResource(android.R.drawable.ic_media_pause);
@@ -56,6 +62,8 @@ public class Juego extends AppCompatActivity {
                 Snackbar.make(view, text, Snackbar.LENGTH_LONG).show();
             }
         });
+
+
 
     }
 
