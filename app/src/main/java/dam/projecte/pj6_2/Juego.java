@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.SeekBar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -20,6 +21,15 @@ public class Juego extends AppCompatActivity {
     private String LOG = "dam.projecte.pj6_2";
     private boolean isReproduint= true;
     private Intent intent;
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,6 +47,8 @@ public class Juego extends AppCompatActivity {
 
         final FloatingActionButton fab = findViewById(R.id.fab);
         fab.setImageResource(android.R.drawable.ic_media_pause);
+
+
 
         //Cambios de estado del FloatingActionButton
         fab.setOnClickListener(new View.OnClickListener() {
