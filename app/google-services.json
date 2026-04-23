@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881459802441",
+    "project_id": "pj6-2-5b586",
+    "storage_bucket": "pj6-2-5b586.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881459802441:android:6d2605729fd2e9aeae2a98",
+        "android_client_info": {
+          "package_name": "edu.fje.multimedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2qTUxlTbpX6xgzjUkVBf4UcuCu2xneg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
