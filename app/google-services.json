@@ -1,13 +1,33 @@
 {
   "project_info": {
-    "project_number": "881459802441",
-    "project_id": "pj6-2-5b586",
-    "storage_bucket": "pj6-2-5b586.firebasestorage.app"
+    "project_number": "1078548943275",
+    "firebase_url": "https://dam2-4c824-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dam2-4c824",
+    "storage_bucket": "dam2-4c824.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:881459802441:android:6d2605729fd2e9aeae2a98",
+        "mobilesdk_app_id": "1:1078548943275:android:a4b5a8519523b94c9602ee",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDJLXor3ceKW0jojRawdQuf_pYFWShTcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078548943275:android:ba82d736bd33b8349602ee",
         "android_client_info": {
           "package_name": "dam.projecte.pj6_2"
         }
@@ -15,7 +35,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCF2qTUxlTbpX6xgzjUkVBf4UcuCu2xneg"
+          "current_key": "AIzaSyDDJLXor3ceKW0jojRawdQuf_pYFWShTcM"
         }
       ],
       "services": {

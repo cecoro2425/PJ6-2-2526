@@ -133,8 +133,11 @@ class VistaTablero extends View
                 @Override
                 public void run() {
                     invalidate();
+                    if (getContext() instanceof Juego) {
+                        ((Juego) getContext()).verificarEstadoVictoria();
+                    }
                 }
-            }, 50);
+            }, 100);
             return true;
         }
         return super.onTouchEvent(event);
